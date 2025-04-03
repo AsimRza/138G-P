@@ -1,0 +1,51 @@
+@media screen and (max-width: 1200px) and (min-width: 768px) {
+  .container {
+    width: 70%;
+  }
+  header {
+    min-height: 45vh;
+  }
+  .header-banner {
+    width: 100%;
+  }
+  .price-list {
+    flex-wrap: wrap;
+    column-gap: 20px;
+    row-gap: 20px;
+  }
+  .price {
+    width: calc(100% / 2 - 10px);
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .container {
+    width: 80%;
+  }
+  .header-banner {
+    width: 100%;
+  }
+  .menu-icon {
+    display: inline-block;
+    font-size: 20px;
+    padding: 16px;
+  }
+  .menu-icon:hover {
+    border: 1px solid !important;
+    border-radius: 8px;
+  }
+  header nav ul {
+    display: none;
+  }
+  .header-banner {
+    margin-top: 50px;
+  }
+  .service-list {
+    flex-direction: column;
+    row-gap: 60px;
+  }
+  .price-list {
+    flex-direction: column;
+    row-gap: 60px;
+  }
+}
